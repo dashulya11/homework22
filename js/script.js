@@ -4,7 +4,7 @@ function palindrome(num, step = 0) {
     if(num === numReverse){
         return {
             result: num,
-            step: step,
+            steps: step,
         };
     }
     return palindrome(result,step + 1);
